@@ -4,7 +4,7 @@ import AdminLayout from '../../../Hoc/AdminLayout';
 import FormField from '../../ui/formFields';
 import { validate } from '../../ui/misc';
 
-import { firebaseTeams, firebaseDB, firebaseMatches, firebase } from '../../../firebase';
+import { firebaseTeams, firebaseDB, firebaseMatches } from '../../../firebase';
 import { firebaseLooper } from '../../ui/misc';
 
 class AddEditMatch extends Component {
