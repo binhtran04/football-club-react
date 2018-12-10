@@ -6,8 +6,8 @@ import Stripes from '../../Resources/images/stripes.png';
 import { firebasePlayers, firebase } from '../../firebase';
 import { firebaseLooper } from '../ui/misc';
 import { Promise } from 'core-js';
-import { resolve } from 'path';
-import { isNonNullObject } from '@firebase/util';
+// import { resolve } from 'path';
+// import { isNonNullObject } from '@firebase/util';
 
 class TheTeam extends Component {
 
